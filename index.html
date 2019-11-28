@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="import/theyalow/index2.html">
+    <link rel="import" href="import/repair-design-project/index.html">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row about_user">
+            <div class="col-md-4 col-sm-1">
+                <img src="images/phot.jpg" class="user_photo">
+            </div>
+            <div class="discription col-md-3 col-sm-12">
+                <div class="col-md-12  discription_col">
+                    <h2>Ksenya Swiridova</h2>
+                </div>
+                <div class="col-md-12 col-sm-1 discription_col">
+                    <h5><a href="https://github.com/KsenyaSwir">GITHUB</a></h5>
+                </div>
+                <div class="col-md-12 discription_col">
+                    <h5>LINKEDIN</h5>
+                </div>
+            </div>
+        </div>
+        <nav class="menu">
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Education</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <a href="#school">School 2005-2016<br><small>Gumnasium №10, Gomel</small></a>
+                    <a href="#university">University 2017-2021<br><small>Belarusian State University of Informatics and Radioelectronics<br></small></a>
+                    <a href="#courses">RSSchool 2019-2020</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="about_proj">
+            <div class="row project">
+                <h1 class="about_proj__name">Projects</h1>
+                <div id="gallery">
+                    <div class="btns">
+                        <button id="prev" class="controls">&lt</button>
+                        <button id="next" class="controls">&gt</button>
+                    </div>
+                    <div class="pictures">
+                        <object type="text/html" data="import/repair-design-project/index.html" >
+                                <p>backup content</p>
+                                </object>
+                        <object type="text/html" data="import/theyalow/index2.html">
+                                <p>backup content</p>
+                                </object>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
