@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="import" href="import/theyalow/index2.html">
     <link rel="import" href="import/repair-design-project/index.html">
@@ -40,27 +43,39 @@
                 <div id="myDropdown" class="dropdown-content">
 
                     <a href="#school">School 2005-2016<br><small>Gumnasium №10, Gomel</small></a>
-                    <a href="#university">University 2017-2021<br><small>Belarusian State University of Informatics and Radioelectronics<br></small></a>
+                    <a href="#university">University 2017-2021<br><small>Belarusian State University of Informatics and
+                            Radioelectronics<br></small></a>
                     <a href="#courses">RSSchool 2019-2020</a>
                 </div>
             </div>
         </nav>
 
+
+        <form>
+            <input id="elem" class="btn btn-dark exti" type="button" value="Tab on image to see the project" /></input>
+
+        </form>
         <div class="about_proj">
+
             <div class="row project">
                 <h1 class="about_proj__name">Projects</h1>
+
                 <div id="gallery">
                     <div class="btns">
                         <button id="prev" class="controls">&lt</button>
                         <button id="next" class="controls">&gt</button>
                     </div>
                     <div class="pictures">
-                        <object type="text/html" data="import/repair-design-project/index.html" >
-                                <p>backup content</p>
-                                </object>
-                        <object type="text/html" data="import/theyalow/index2.html">
-                                <p>backup content</p>
-                                </object>
+
+
+                        <object id="obj_one" type="text/html" data="import/repair-design-project/index.html">
+                            <p>backup content</p>
+
+                        </object>
+                        <object type="text/html" id="obj_two" data="import/theyalow/index2.html">
+                            <p>backup content</p>
+                            
+                        </object>
 
                     </div>
 
